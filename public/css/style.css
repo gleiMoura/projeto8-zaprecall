@@ -1,0 +1,26 @@
+:root{
+    --background: #FB6B6B;
+    --redtext: #D70900;
+    --blacktext:#333333;
+    --redbutton:#FF3030;
+    --orangebutton:#FF922E;
+    --grrenbutton: #2FBE34;
+}
+.page{
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-start{
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 8%;
+}
