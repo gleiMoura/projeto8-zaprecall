@@ -131,8 +131,8 @@ html{font-size: 62.5%} /*1 rem turns out 10px**/
     display:none;
 }
 .options{
-    width: 16rem;
-    height: 80px;
+    width: 260px;
+    height: 200px;
     background-color: white;
     padding:20px;
     border-radius: 6px;
@@ -185,4 +185,14 @@ html{font-size: 62.5%} /*1 rem turns out 10px**/
 }
 .result h1{
     text-decoration: line-through;
+}
+footer{
+    height: 30px;
+    margin: auto;
+}
+footer p{
+    font-family: 'Recursive';
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
