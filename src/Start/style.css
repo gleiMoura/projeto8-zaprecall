@@ -1,0 +1,43 @@
+.Start{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.Start .logo-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Start .logo-start img{
+    width: 5.5rem;
+}
+
+.Start .logo-start h1{
+    font-size: 2.5rem;
+    font-family: var(--fontRighteous);
+    color: white;
+}
+
+.Start .button-start{
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 8%;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--redText);
+    color: var(--redText);
+    cursor: pointer;
+    margin-top: 7rem;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
