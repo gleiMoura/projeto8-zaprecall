@@ -24,8 +24,8 @@
 }
 
 .content {
-    width: 17.2rem;
-    height: 8rem;
+    width: 275px;
+    height: 200px;
     background-color: white;
     padding: 10px;
     border-radius: 6px;
@@ -40,6 +40,7 @@
 .content p {
     text-align: left;
     font-family: 'Recursive';
+		height: 90px;
 }
 
 .content img {
@@ -54,8 +55,7 @@
 }
 
 .options {
-    width: 260px;
-    height: 200px;
+    width: 275px;
     background-color: white;
     padding: 20px;
     border-radius: 6px;
@@ -70,25 +70,26 @@
 }
 
 .choice {
-    width: 100%;
+		width: auto;
+		height: 30px;
     display: flex;
     justify-content: space-around;
     padding: 0.3rem;
     margin-top: 10px;
     color: white;
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 5px;
 }
 
 .option {
-    width: 5rem;
-    height: 1.5rem;
+    width: 70px;
+    height: 30px;
     border-radius: 5px;
-    font-size: 0.7rem;
+    font-size: 12px;
     text-align: center;
-    padding-top: 5px;
+		margin: 5px;
+		padding-top: 2px;
     cursor: pointer;
 }
 
